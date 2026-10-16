@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Darmawan Web">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1424"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="10" y="10" width="492" height="492" rx="104" fill="none" stroke="#1E293B" stroke-width="4"/>
+  <path d="M168 136V376M168 136H250A120 120 0 0 1 250 376H168" fill="none" stroke="url(#ink)" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke="#E0E7FF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M238 228L212 256L238 284"/>
+    <path d="M276 216L256 296"/>
+    <path d="M294 228L320 256L294 284"/>
+  </g>
+</svg>
