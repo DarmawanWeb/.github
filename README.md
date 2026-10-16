@@ -15,7 +15,7 @@ logo and banner, and the metrics rendered from the organization's repositories.*
 |---|---|
 | `profile/README.md` | shown on [github.com/DarmawanWeb](https://github.com/DarmawanWeb) |
 | `assets/logo.svg`, `assets/avatar.png`, `assets/banner.png` | logo, the organization's profile picture (512 × 512), profile banner |
-| `metrics/*.svg` | overview, languages, featured repositories, lines of code |
+| `metrics/*.svg` | commits, overview with issues and pull requests, languages, lines of code |
 | `.github/workflows/metrics.yml` | renders the metrics with [lowlighter/metrics](https://github.com/lowlighter/metrics) every 12 hours, on demand, and when the workflow changes |
 
 The workflow needs a `METRICS_TOKEN` repository secret: a classic personal access token with the `repo`,

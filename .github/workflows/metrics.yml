@@ -34,6 +34,7 @@ jobs:
           user: DarmawanWeb
           output_action: none
           config_timezone: Asia/Jakarta
+          config_display: large
           base: header, activity, community, repositories
           plugin_introduction: yes
           plugin_followup: yes
@@ -49,6 +50,7 @@ jobs:
           user: DarmawanWeb
           output_action: none
           config_timezone: Asia/Jakarta
+          config_display: large
           base: ""
           plugin_languages: yes
           plugin_languages_sections: most-used
@@ -56,20 +58,6 @@ jobs:
           plugin_languages_limit: 10
           plugin_languages_categories: programming
           plugin_languages_ignored: html, css, scss
-
-      - name: repositories
-        if: env.HAS_TOKEN == 'true'
-        continue-on-error: true
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: DarmawanWeb
-          output_action: none
-          config_timezone: Asia/Jakarta
-          base: ""
-          plugin_repositories: yes
-          plugin_repositories_featured: Pasupasastra, Netra
 
       - name: lines
         if: env.HAS_TOKEN == 'true'
@@ -81,12 +69,20 @@ jobs:
           user: DarmawanWeb
           output_action: none
           config_timezone: Asia/Jakarta
+          config_display: large
           base: ""
           plugin_lines: yes
           plugin_lines_sections: base, repositories, history
           plugin_lines_repositories_limit: 4
           plugin_lines_history_limit: 1
           plugin_lines_delay: 20
+
+      - name: commits
+        if: env.HAS_TOKEN == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python3 .github/scripts/commits.py DarmawanWeb metrics/commits.svg 6366F1
 
       - name: commit renders
         if: env.HAS_TOKEN == 'true'
