@@ -73,7 +73,7 @@ jobs:
           config_timezone: Asia/Jakarta
           base: ""
           plugin_repositories: yes
-          plugin_repositories_featured: Pasupasastra, Netra, pasupasastra-gcs-fe, pasupasastra-gcs-be, netra-fleet-fe, netra-fleet-be
+          plugin_repositories_featured: Pasupasastra, Netra
 
       - name: habits
         if: env.HAS_TOKEN == 'true'

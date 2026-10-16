@@ -18,12 +18,9 @@
 |---|---|---|
 | **[PASUPASASTRA](https://github.com/DarmawanWeb/Pasupasastra)** | Unified command center for multi-drone operations: live fleet on a 3D map, mission planning, payload drop, live video with YOLO and VLM, DJI and Autel bridges | Next.js, Tauri, FastAPI, MediaMTX, Flutter |
 | **[NETRA](https://github.com/DarmawanWeb/Netra)** | Patrol command center for [Pashupati](https://github.com/DarmawanRobotics/Pashupati) robots: fleet on the mall map, patrols and schedules, AI anomaly validation, crowd heatmaps, reports, OAuth2 API | Next.js, Go, TimescaleDB, Ollama |
-| **[AIS-ITS CII SEEMP](https://github.com/DarmawanWeb/ais-its-cii-seemp)** | Carbon Intensity Indicator from ship movement data, with SEEMP recommendations to improve energy efficiency | Express, TypeScript, MongoDB, Vite |
-| **[OpenID SSO](https://github.com/DarmawanWeb/adonis-api-openid-sso)** | Single sign-on for campus applications over OAuth2 and OpenID Connect; [Keycloak in Docker](https://github.com/DarmawanWeb/keycloak-sso-docker) | AdonisJS, PostgreSQL, Keycloak |
-| **Starters** | [next-shadcn-starter](https://github.com/DarmawanWeb/next-shadcn-starter), [adonis-api-pg-starter](https://github.com/DarmawanWeb/adonis-api-pg-starter), [docker-postgres-adminer](https://github.com/DarmawanWeb/docker-postgres-adminer) | Next.js, AdonisJS, PostgreSQL |
 
-PASUPASASTRA and NETRA are deployment roots: `git clone --recursive` brings their console, backend and
-bridges along as submodules.
+Both are deployment roots: `git clone --recursive` brings their console, backend and bridges along as
+submodules.
 
 ## Metrics
 
