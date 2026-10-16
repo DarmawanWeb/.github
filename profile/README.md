@@ -30,11 +30,7 @@ submodules.
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/DarmawanWeb/.github/main/metrics/repositories.svg" alt="Featured repositories" width="49%">
-  <img src="https://raw.githubusercontent.com/DarmawanWeb/.github/main/metrics/habits.svg" alt="Habits" width="49%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DarmawanWeb/.github/main/metrics/activity.svg" alt="Activity" width="49%">
-  <img src="https://raw.githubusercontent.com/DarmawanWeb/.github/main/metrics/achievements.svg" alt="Achievements" width="49%">
+  <img src="https://raw.githubusercontent.com/DarmawanWeb/.github/main/metrics/lines.svg" alt="Lines of code" width="49%">
 </p>
 
 <p align="center"><sub>Rendered every 12 hours by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> from this organization's repositories.</sub></p>
